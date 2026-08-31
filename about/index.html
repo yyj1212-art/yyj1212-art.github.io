@@ -26,41 +26,7 @@ a{color:var(--text)}
 .footer{border-top:1px solid var(--line);padding:28px 0 45px;color:var(--muted);font-size:.7rem}
 @media(max-width:700px){.wrap{padding:0 22px}.top{padding-top:38px}section{grid-template-columns:1fr;gap:20px;padding:34px 0 38px}h1{font-size:3.7rem}}
 </style>
-<style id="page-transition">
-html{background:var(--bg)}
-body{opacity:1}
-body.page-enter{animation:pageEnter .42s cubic-bezier(.22,.61,.36,1) both}
-body.page-leave{animation:pageLeave .34s cubic-bezier(.55,.08,.68,.53) both}
-@keyframes pageEnter{from{opacity:0;transform:translateX(24px)}to{opacity:1;transform:translateX(0)}}
-@keyframes pageLeave{from{opacity:1;transform:translateX(0)}to{opacity:0;transform:translateX(-24px)}}
-@media(prefers-reduced-motion:reduce){
-body.page-enter,body.page-leave{animation:none!important}
-}
-</style>
-<script>
-(function(){
-  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if(!reduce) document.body.classList.add('page-enter');
-  window.addEventListener('pageshow',function(e){
-    if(e.persisted) document.body.classList.remove('page-leave');
-  });
-  document.addEventListener('click',function(e){
-    var a=e.target.closest('a');
-    if(!a || reduce) return;
-    if(a.target && a.target !== '_self') return;
-    if(e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
-    if(a.hasAttribute('download')) return;
-    if(a.protocol !== window.location.protocol || a.host !== window.location.host) return;
-    var url=new URL(a.href);
-    if(url.pathname === window.location.pathname && url.search === window.location.search) return;
-    if(url.protocol !== 'http:' && url.protocol !== 'https:') return;
-    e.preventDefault();
-    document.body.classList.remove('page-enter');
-    document.body.classList.add('page-leave');
-    window.setTimeout(function(){ window.location.href=url.href; },340);
-  });
-})();
-</script></head>
+</head>
 <body>
 <main class="wrap">
 <header class="top">
