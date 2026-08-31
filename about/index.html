@@ -26,7 +26,27 @@ a{color:var(--text)}
 .footer{border-top:1px solid var(--line);padding:28px 0 45px;color:var(--muted);font-size:.7rem}
 @media(max-width:700px){.wrap{padding:0 22px}.top{padding-top:38px}section{grid-template-columns:1fr;gap:20px;padding:34px 0 38px}h1{font-size:3.7rem}}
 </style>
-</head>
+<style id="page-transition">
+@keyframes pageIn{from{opacity:0;transform:translateX(28px)}to{opacity:1;transform:translateX(0)}}
+@keyframes pageOut{from{opacity:1;transform:translateX(0)}to{opacity:0;transform:translateX(-28px)}}
+body{animation:pageIn .42s cubic-bezier(.22,.61,.36,1) both}
+body.page-leaving{animation:pageOut .28s ease both;pointer-events:none}
+@media(prefers-reduced-motion:reduce){body,body.page-leaving{animation:none!important}}
+</style>
+<script>
+(function(){
+  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  document.addEventListener('click',function(e){
+    const link=e.target.closest('a');
+    if(!link)return;
+    const url=new URL(link.href,location.href);
+    if(url.origin!==location.origin||url.hash||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey||link.target==='_blank')return;
+    e.preventDefault();
+    document.body.classList.add('page-leaving');
+    setTimeout(()=>location.href=link.href,280);
+  });
+})();
+</script></head>
 <body>
 <main class="wrap">
 <header class="top">
