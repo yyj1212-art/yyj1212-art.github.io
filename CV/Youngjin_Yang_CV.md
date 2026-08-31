@@ -20,7 +20,7 @@ Life Sciences; transferred to Chung-Ang University.
 
 ## Research Experience
 
-**Chung-Ang University — Kim Hakyun Lab** — 2026  
+**Chung-Ang University — Kim Hakyun Lab** — Mar 2026-Dec 2026  
 Undergraduate Research Intern. Worked on circRNA translation optimization, including IRES screening and UTR optimization. Performed HEK293T cell culture, transient transfection, molecular cloning, dual-luciferase assays, and quantitative analysis. Screened a large IRES candidate set and evaluated reproducibility across repeated experiments.
 
 **Dongguk University — Im Gun-il Lab** — Jun 2023–Dec 2023  
