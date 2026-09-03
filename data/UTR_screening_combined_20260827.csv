@@ -1,0 +1,17 @@
+construct,configuration,UTR_5prime,UTR_3prime,normalized_FHB
+FHB,reference,none,none,100.00
+EVB80,none,none,none,452.57
+EVB80 5A3A,5prime+3prime,ACAT,ACAT,340.28
+EVB80 5H3H,5prime+3prime,HBA1,HBA1,71.65
+FMDV,none,none,none,386.13
+FMDV 5A3A,5prime+3prime,ACAT,ACAT,386.24
+FMDV 5H3H,5prime+3prime,HBA1,HBA1,3.88
+CVA3,none,none,none,287.70
+CVA3 5A3A,5prime+3prime,ACAT,ACAT,28.45
+CVA3 5H3H,5prime+3prime,HBA1,HBA1,34.34
+CVA7,none,none,none,255.50
+CVA7 5A3A,5prime+3prime,ACAT,ACAT,51.12
+CVA7 5H3H,5prime+3prime,HBA1,HBA1,47.14
+CVA12,none,none,none,394.05
+CVA12 5A3A,5prime+3prime,ACAT,ACAT,50.39
+CVA12 5H3H,5prime+3prime,HBA1,HBA1,84.55
