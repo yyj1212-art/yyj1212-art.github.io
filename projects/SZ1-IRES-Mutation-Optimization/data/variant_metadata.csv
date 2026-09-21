@@ -1,0 +1,17 @@
+variant,site_group,site,wt_base,mutant_base_or_change
+WT,WT,,,
+SZ1-0A,SZ1-0,0.0,G,A
+SZ1-0C,SZ1-0,0.0,G,C
+SZ1-0T,SZ1-0,0.0,G,T
+SZ1-0In,SZ1-0,0.0,G,GG
+SZ1-0Del,SZ1-0,0.0,G,Del
+SZ1-1A,SZ1-1,1.0,C,A
+SZ1-1G,SZ1-1,1.0,C,G
+SZ1-1T,SZ1-1,1.0,C,T
+SZ1-1In,SZ1-1,1.0,C,CC
+SZ1-1Del,SZ1-1,1.0,C,Del
+SZ1-2A,SZ1-2,2.0,T,A
+SZ1-2C,SZ1-2,2.0,T,C
+SZ1-2G,SZ1-2,2.0,T,G
+SZ1-2In,SZ1-2,2.0,T,TT
+SZ1-2Del,SZ1-2,2.0,T,Del

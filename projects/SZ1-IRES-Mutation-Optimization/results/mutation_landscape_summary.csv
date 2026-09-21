@@ -1,0 +1,2 @@
+total_single_substitution_candidates,sequence_length,experimental_variants,pairing_state_changes,max_structure_diff_20nt,min_delta_mfe,max_delta_mfe,experimental_2C_TE_WT100,experimental_2C_delta_MFE,experimental_2C_structure_diff_20nt
+1950,650,9,837,37,-6.599999999999994,7.099999999999994,109.17,-1.0,27
