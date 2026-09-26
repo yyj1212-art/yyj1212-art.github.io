@@ -94,7 +94,7 @@
             '<text x="495" y="143" class="wf-sub">ΔMFE vs WT</text>' +
           '</g>' +
 
-          '<g class="wf-node" tabindex="0" role="button" aria-label="Explore the mutation landscape" data-action="landscape" data-tip="RNAfold outputs are transformed into structural and mutation-level features. Click to explore all 1,950 substitutions.">' +
+          '<g class="wf-node" tabindex="0" data-tip="RNAfold outputs are transformed into structural and mutation-level features.">' +
             '<rect x="680" y="45" width="130" height="110" rx="2"/>' +
             '<text x="700" y="72" class="wf-step">04 · FEATURES</text>' +
             '<text x="700" y="101" class="wf-main">Feature</text>' +
@@ -151,22 +151,6 @@
       node.addEventListener("focus", show);
       node.addEventListener("mouseleave", hide);
       node.addEventListener("blur", hide);
-      if (node.getAttribute("data-action") === "landscape") {
-        function openLandscape() {
-          const target = document.getElementById("sz1-landscape");
-          if (target) target.scrollIntoView({
-            behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth",
-            block: "start"
-          });
-        }
-        node.addEventListener("click", openLandscape);
-        node.addEventListener("keydown", function(event) {
-          if (event.key === "Enter" || event.key === " ") {
-            event.preventDefault();
-            openLandscape();
-          }
-        });
-      }
     });
   }
 
