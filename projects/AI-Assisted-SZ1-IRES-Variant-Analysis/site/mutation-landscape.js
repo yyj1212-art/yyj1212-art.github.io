@@ -4,7 +4,7 @@
   var root = document.getElementById("sz1-landscape");
   if (!root) return;
 
-  var base = "/projects/SZ1-IRES-Mutation-Optimization/";
+  var base = "/projects/AI-Assisted-SZ1-IRES-Variant-Analysis/";
   var colors = { A: "#6f837a", C: "#b17b61", G: "#7889a2", T: "#aa9a55" };
   var allRows = [];
   var experimental = Object.create(null);
@@ -177,8 +177,8 @@
   }
 
   Promise.all([
-    fetchCSV("results/feature_dataset_all_1950.csv"),
-    fetchCSV("results/feature_dataset_training_9.csv")
+    fetchCSV("analysis/results/structural-analysis/all_variant_features_1950.csv"),
+    fetchCSV("analysis/results/exploratory-ml/experimental_feature_subset_n9.csv")
   ]).then(function (tables) {
     allRows = tables[0];
     tables[1].forEach(function (row) {

@@ -2,7 +2,7 @@
   const root = document.getElementById("sz1-workflow");
   if (!root) return;
 
-  const base = "/projects/SZ1-IRES-Mutation-Optimization/";
+  const base = "/projects/AI-Assisted-SZ1-IRES-Variant-Analysis/";
 
   function parseCSV(text) {
     const lines = text.trim().split(/\r?\n/);
@@ -171,8 +171,8 @@
   }
 
   Promise.all([
-    fetch(base + "results/mutation_landscape_summary.csv"),
-    fetch(base + "results/feature_dataset_training_9.csv")
+    fetch(base + "analysis/results/structural-analysis/mutation_landscape_summary.csv"),
+    fetch(base + "analysis/results/exploratory-ml/experimental_feature_subset_n9.csv")
   ])
   .then(function(responses) {
     return Promise.all(responses.map(function(response) {
