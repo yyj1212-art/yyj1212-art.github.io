@@ -1,69 +1,83 @@
 # Youngjin Yang
 
-**Undergraduate Researcher | Life Sciences**
+Undergraduate Researcher | Life Sciences
 
-yyjyyj1212@naver.com | [GitHub](https://github.com/yyj1212-art) | [Personal Website](https://yyj1212-art.github.io/)
-
----
+yyjyyj1212@naver.com | [GitHub](https://github.com/yyj1212-art) | [Personal Website](https://yangyoungjin.kro.kr/)
 
 ## Research Interest
 
-My interests lie in biological systems engineering and bioprocess development, with an emphasis on designing, evaluating, and optimizing biological systems through careful experimentation and quantitative analysis. During 2026, I worked on RNA engineering research, developing experience in cell-based assays, molecular cloning, reporter-based screening, and experimental reproducibility.
+I am interested in RNA-mediated regulation of gene expression and in connecting cell-based experiments with computational analysis. My circRNA research has motivated me to investigate how sequence and RNA structure influence translation, and to develop research skills through hypothesis-driven experiments, quantitative comparisons, and critical interpretation of computational predictions.
 
 ## Education
 
-**Chung-Ang University** — 2026–Present  
-B.S. in Life Sciences. GPA: 4.2 / 4.5 (current).
+**Chung-Ang University** | 2026 - Present
 
-**Dongguk University** — Previous undergraduate study  
-Life Sciences; transferred to Chung-Ang University.
+B.S. in Life Sciences. GPA: 4.20 / 4.50.
+
+**Dongguk University** | 2022.03 - 2024.02
+
+Life Sciences. GPA: 4.09 / 4.50. Transferred to Chung-Ang University.
+
+**Combined GPA:** 4.112 / 4.50.
 
 ## Research Experience
 
-**Chung-Ang University — Kim Hakyun Lab** — Mar 2026-Dec 2026  
-Undergraduate Research Intern. Worked on circRNA translation optimization, including IRES screening and UTR optimization. Performed HEK293T cell culture, transient transfection, molecular cloning, dual-luciferase assays, and quantitative analysis. Screened a large IRES candidate set and evaluated reproducibility across repeated experiments.
+**Chung-Ang University - Kim Hak-gyun Lab** | 2026
 
-**Dongguk University — Im Gun-il Lab** — Jun 2023–Dec 2023  
-Undergraduate Research Intern, Regenerative Medicine Research Lab. Participated in cell-based regenerative medicine research, including FACS for evaluating cellular states in spheroid culture and bone-marrow preparation. Also participated in mouse and rabbit in vivo experiments evaluating therapeutic cell/drug-related effects in an osteoarthritis model, including GFP-based observation.
+**Research focus:** circRNA translation optimization through IRES screening and UTR optimization.
+
+**Experimental work:** HEK293T cell culture, transient transfection, molecular cloning, plasmid preparation, and dual-luciferase assays.
+
+**Analysis:** Quantitative comparison of reporter measurements across candidates and repeated experiments; RNAfold-based exploration of SZ1 IRES variants.
+
+**Dongguk University - Im Gun-il Lab** | Jun 2023 - Jan 2024
+
+**Cell-based research:** Participated in regenerative medicine research, including FACS-based evaluation of cellular states in spheroid culture and bone-marrow preparation.
+
+**In vivo research:** Participated in mouse and rabbit osteoarthritis-model experiments evaluating therapeutic cell- and drug-related effects, including GFP-based observation.
 
 ## Selected Research Projects
 
-**circRNA Translation Optimization** — Chung-Ang University · 2026  
-IRES screening for improving translation efficiency of circular RNA. Firefly/Gaussia dual-luciferase reporter system was used to compare candidates, with FHB confirmed as the WT normalization reference. Follow-up work examined combinations of selected IRES candidates with UTRs and considered repeatability and sequence/structural interactions.
+**circRNA Translation Optimization & Reproducibility Analysis** | 2026
 
-**IRES Screening & Reproducibility Analysis** — 2026  
-Screened approximately 100 candidate conditions using HEK293T cells. Technical duplicates were measured after 24 h and normalized using Gaussia/Firefly ratios relative to WT (FHB). Repeated screening of the candidate set was used to assess reproducibility and select candidates for downstream optimization.
+Participated in IRES screening in HEK293T cells using firefly and Gaussia luciferase reporter measurements. Compared candidate activity across repeated experiments and examined selected IRES-UTR combinations. Investigated SZ1 mutation-associated translation changes through structural comparisons and follow-up mutation and rescue experiments.
+
+<!-- pagebreak -->
+
+## Selected Research Projects (continued)
+
+**Computational Analysis of SZ1 IRES Variants** | 2026
+
+Analyzed all 1,950 single-nucleotide substitutions across a 650-nt SZ1 IRES computationally using RNAfold-derived secondary-structure predictions. Examined changes in minimum free energy (ΔMFE), pairing state, and local structure relative to the reference sequence.
+
+Linked structural features to translation-efficiency measurements from nine experimentally tested single-substitution variants to explore sequence-structure-function relationships, including exploratory machine-learning comparisons. The nine measured variants support hypothesis generation; this analysis does not establish a validated translation-efficiency predictor.
+
+Used AI-assisted scripting and debugging to support data processing, feature analysis, and interactive visualization of the mutation landscape.
 
 ## Technical Skills
 
-**Cell & Molecular Biology**  
-HEK293T cell culture · transient transfection · Lipofectamine 3000 · dual-luciferase assay · FACS · PCR · molecular cloning · plasmid preparation
+**Cell & Molecular Biology**
 
-**RNA & Biological Systems**  
-circRNA engineering · IRES screening · UTR optimization · reporter assays · experimental design · reproducibility analysis
+HEK293T cell culture; transient transfection; Lipofectamine 3000; dual-luciferase assays; FACS; PCR; molecular cloning; plasmid preparation.
 
-**Data & Tools**  
-Python · quantitative experimental data analysis · statistical analysis · data visualization · GitHub
+**RNA & Biological Systems**
+
+circRNA engineering; IRES screening; UTR optimization; reporter assays; experimental design; reproducibility analysis.
+
+**Data, AI & Tools**
+
+Python with AI-assisted coding and debugging; quantitative and statistical analysis; RNAfold; structural feature analysis; data visualization; interactive mutation-landscape visualization; GitHub.
 
 ## Leadership & Activities
 
-**Student Council** — Undergraduate  
+**Student Council** | Undergraduate
+
 Participated in student council activities for two years and served as a department/student council leader.
 
-**External & Campus Projects** — Undergraduate  
+**External & Campus Projects** | Undergraduate
+
 Participated in Korea Social Contribution Association supporter activities and led university projects including curriculum development and creative convergence projects.
-
-## Training & Future Development
-
-**KAIST STAR Program** — Planned  
-Targeting winter research internship opportunities to broaden experience in biological engineering and quantitative/data-driven research.
-
-**K-NIBRT Bioprocess Training** — Planned  
-Planning biopharmaceutical process education with interest in upstream/bioprocessing applications.
-
-**Certifications & Language** — Planned  
-TOEIC 900 target · TOEIC Speaking · 바이오화학제품기사 preparation.
 
 ## Career Direction
 
-Long-term goal: Process Engineering in the biopharmaceutical industry, with particular interest in applying experimental optimization, cell-based systems, quantitative analysis, and biological engineering to scalable bioprocess development.
+I aim to deepen my understanding of gene-expression regulation by combining molecular and cell-based experiments with quantitative analysis. In an international research environment, I hope to learn new approaches to RNA biology, refine experimental hypotheses, and critically evaluate links between computational predictions and biological measurements.
