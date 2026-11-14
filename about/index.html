@@ -15,6 +15,9 @@ body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica
 .kicker{font-size:.72rem;color:var(--muted);letter-spacing:.05em;margin:28px 0 14px}
 h1{font-size:clamp(3rem,7vw,5.8rem);line-height:.9;letter-spacing:-.065em;font-weight:500;margin:0}
 .lead{max-width:700px;color:var(--muted);font-size:.95rem;line-height:1.7;margin:25px 0 0}
+.top-grid{display:grid;grid-template-columns:1fr 190px;gap:60px;align-items:end}
+.portrait{margin:0}
+.portrait img{display:block;width:100%;height:auto;aspect-ratio:413/531;border:1px solid var(--line);background:#fff}
 section{border-top:1px solid var(--line);padding:42px 0 45px;display:grid;grid-template-columns:190px 1fr;gap:55px}
 h2{font-size:1rem;margin:0;letter-spacing:-.02em}
 .content{max-width:720px}
@@ -24,16 +27,21 @@ p{color:var(--muted);font-size:.84rem;line-height:1.75;margin:0 0 14px}
 .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.tag{border:1px solid #CBD3CF;padding:6px 9px;font-size:.68rem;color:#5F6E68}
 a{color:var(--text)}
 .footer{border-top:1px solid var(--line);padding:28px 0 45px;color:var(--muted);font-size:.7rem}
-@media(max-width:700px){.wrap{padding:0 22px}.top{padding-top:38px}section{grid-template-columns:1fr;gap:20px;padding:34px 0 38px}h1{font-size:3.7rem}}
+@media(max-width:700px){.wrap{padding:0 22px}.top{padding-top:38px}.top-grid{grid-template-columns:1fr;gap:6px;margin-top:22px}.portrait{order:-1;width:130px}section{grid-template-columns:1fr;gap:20px;padding:34px 0 38px}h1{font-size:3.7rem}}
 </style>
 </head>
 <body>
 <main class="wrap">
 <header class="top">
 <a class="back" href="/">← Back to home</a>
+<div class="top-grid">
+<div class="top-text">
 <div class="kicker">ABOUT · YOUNGJIN YANG</div>
 <h1>Youngjin Yang.</h1>
 <p class="lead">Life Sciences undergraduate at Chung-Ang University, interested in how biological systems can be understood, evaluated, and optimized through experimental research.</p>
+</div>
+<figure class="portrait"><img src="/about/profile.jpg" alt="Portrait of Youngjin Yang" width="413" height="531"></figure>
+</div>
 </header>
 <section><h2>About Me</h2><div class="content">
 <p>My path in life sciences has taken me across different areas of biological research. In 2023, I worked in a regenerative medicine research laboratory at Dongguk University, where I gained experience with cell-based research, FACS, and in vivo experiments.</p>
